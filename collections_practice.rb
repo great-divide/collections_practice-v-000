@@ -21,5 +21,7 @@ end
 def kesha_maker(array)
   new = []
   array.each do |n|
-    n.length
+    new << n[2] = $
+  end
+  new
 end
