@@ -35,7 +35,7 @@ def find_a(array)
 end
 
 def start_with?(string, letter)
-  if string[0] == a
+  if string[0] == letter
     return string
   end
 end
