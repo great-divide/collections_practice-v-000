@@ -41,5 +41,6 @@ def starts_with?(string, letter)
 end
 
 def sum_array(array)
-  
+  new = array.reduce(:+)
+  new
 end
