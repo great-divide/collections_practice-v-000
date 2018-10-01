@@ -28,3 +28,10 @@ def kesha_maker(array)
   }
   new
 end
+
+def find_a(array)
+  
+end
+
+def start_with?(array)
+end
