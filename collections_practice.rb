@@ -18,6 +18,11 @@ def swap_elements(array)
   array
 end
 
+def reverse_array(array)
+  new = array.reverse
+  new
+end
+
 def kesha_maker(array)
   new = array.each { |n| n[2] = '$'
   }
