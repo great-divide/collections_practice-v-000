@@ -39,3 +39,7 @@ def starts_with?(string, letter)
     return string
   end
 end
+
+def sum_array(array)
+  
+end
