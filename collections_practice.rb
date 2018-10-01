@@ -48,7 +48,7 @@ end
 def add_s(array)
   new = array.each do |n|
     if n[index] != 1
-      { n + "s" }
+       n + "s" 
     end
   end
   new
