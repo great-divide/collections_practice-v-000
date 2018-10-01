@@ -34,7 +34,7 @@ def find_a(array)
   new
 end
 
-def start_with?(string, letter)
+def starts_with?(string, letter)
   if string[0] == letter
     return string
   end
