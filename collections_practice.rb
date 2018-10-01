@@ -30,8 +30,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  array.find_all { |n| starts_with?
 end
 
-def start_with?(array)
+def start_with?(string, letter)
+  if string[0] == a
+    return string
+  end
 end
