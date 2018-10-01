@@ -47,8 +47,9 @@ end
 
 def add_s(array)
   array.collect!.with_index {|name, index| 
-    if index != 2
+    if index != 1
       name + "s"
+    else name
     end
   }
   array
